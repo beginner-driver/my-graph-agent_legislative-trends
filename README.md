@@ -169,8 +169,11 @@ streamlit 한 페이지: 질문 입력 → 답변·탄 경로·근거를 보여�
 - 근거 원문은 기본적으로 접어 두고 펼쳐서 보게 했다(양이 많아서 — 개당 최대 100건 가까이 나옴).
 - **실제로 로컬에서 띄워서 확인함**: `streamlit run app.py`로 서버를 띄우고 Playwright로 직접
   질문을 클릭·입력해서 답변·경로·근거·basic RAG 비교가 다 정상 렌더링되는 걸 확인했다.
-  스크린샷: [`docs/screenshots/app_answer.png`](docs/screenshots/app_answer.png)(답변+경로),
-  [`docs/screenshots/app_evidence.png`](docs/screenshots/app_evidence.png)(근거 펼친 화면).
+  스크린샷:
+
+  ![답변 + 경로](docs/screenshots/app_answer.png)
+
+  ![근거 펼친 화면](docs/screenshots/app_evidence.png)
 
 **실행 방법**: `streamlit run app.py` (사전에 `python build_graph.py`로 `output/graph.graphml`이
 있어야 함). 브라우저가 자동으로 열리고, 로컬 주소(기본 http://localhost:8501)로 접속된다.
