@@ -1,0 +1,8 @@
+requests
+playwright
+python-dotenv
+networkx
+langgraph
+langchain
+langchain-openai
+streamlit

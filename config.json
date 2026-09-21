@@ -1,0 +1,26 @@
+{
+  "domain": "national_assembly_bill_review",
+  "topic_kr": "노란봉투법(노동조합 및 노동관계조정법 개정) 22대 국회 입법 과정",
+  "period": {
+    "start": "2024-05-30",
+    "end": "2025-09-09",
+    "note": "22대 국회 개원(2024-05-30)부터 노란봉투법 공포일(2025-09-09)까지. 21대 국회의 1차 시도(2023)와 2026년 시행 이후 개정 시도는 범위 밖."
+  },
+  "committee_scope": ["환경노동위원회", "법제사법위원회", "본회의"],
+  "schema": {
+    "node_types": {
+      "Bill": "개별 법률안 또는 위원장 대안. 속성: bill_no, title, propose_date, decision_date, decision_result, round(2024/2025)",
+      "Person": "국회의원 + 정부위원(장관 등)을 role 속성으로만 구분. 속성: name, role[국회의원|정부위원], party_or_org",
+      "Committee": "소관위원회. 속성: name"
+    },
+    "relation_types": {
+      "PROPOSED_BY": "Bill -> Person (발의자, 대표/공동 구분은 edge 속성)",
+      "REVIEWED_BY": "Bill -> Committee (소관위 심사)",
+      "STATED_POSITION_ON": "Person -> Bill (회의록 발언 기반. edge 속성 stance: 찬성|반대|조건부|설명, evidence: 원문 발언 인용)"
+    }
+  },
+  "hop_limit": {
+    "max_hops": 3,
+    "hub_exclusion_note": "TODO: 회의록에 반복 등장하는 위원장/사회자 발언처럼 그래프에서 과도하게 많은 Bill과 연결되는 절차성 발언자는 STATED_POSITION_ON 추출 대상에서 제외할지 여부를 결정하고 이유를 REPORT.md에 기록할 것."
+  }
+}

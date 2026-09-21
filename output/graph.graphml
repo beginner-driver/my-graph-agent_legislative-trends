@@ -1,0 +1,600 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d17" for="edge" attr.name="source" attr.type="string"/>
+<key id="d16" for="edge" attr.name="date" attr.type="string"/>
+<key id="d15" for="edge" attr.name="evidence" attr.type="string"/>
+<key id="d14" for="edge" attr.name="stance" attr.type="string"/>
+<key id="d13" for="edge" attr.name="kind" attr.type="string"/>
+<key id="d12" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d11" for="node" attr.name="party_or_org" attr.type="string"/>
+<key id="d10" for="node" attr.name="role" attr.type="string"/>
+<key id="d9" for="node" attr.name="round" attr.type="string"/>
+<key id="d8" for="node" attr.name="decision_result" attr.type="string"/>
+<key id="d7" for="node" attr.name="decision_date" attr.type="string"/>
+<key id="d6" for="node" attr.name="propose_date" attr.type="string"/>
+<key id="d5" for="node" attr.name="title" attr.type="string"/>
+<key id="d4" for="node" attr.name="chair_2025" attr.type="string"/>
+<key id="d3" for="node" attr.name="subcommittee_chair_2025" attr.type="string"/>
+<key id="d2" for="node" attr.name="chair_2024" attr.type="string"/>
+<key id="d1" for="node" attr.name="subcommittee_chair_2024" attr.type="string"/>
+<key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="directed"><node id="환경노동위원회">
+  <data key="d0">Committee</data>
+  <data key="d1">김주영</data>
+  <data key="d2">안호영</data>
+  <data key="d3">김주영</data>
+  <data key="d4">안호영</data>
+</node>
+<node id="법제사법위원회">
+  <data key="d0">Committee</data>
+</node>
+<node id="본회의">
+  <data key="d0">Committee</data>
+</node>
+<node id="2200074">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(박해철의원 등 14인)</data>
+  <data key="d6">2024-06-03</data>
+  <data key="d7"></data>
+  <data key="d8">대안반영폐기(2202444)</data>
+  <data key="d9">2024</data>
+</node>
+<node id="박해철">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">더불어민주당</data>
+</node>
+<node id="2200244">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(김태선의원 등 15인)</data>
+  <data key="d6">2024-06-10</data>
+  <data key="d7"></data>
+  <data key="d8">대안반영폐기(2202444)</data>
+  <data key="d9">2024</data>
+</node>
+<node id="김태선">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">더불어민주당</data>
+</node>
+<node id="2200562">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(이용우의원ㆍ신장식의원ㆍ윤종오의원 등 87인)</data>
+  <data key="d6">2024-06-17</data>
+  <data key="d7"></data>
+  <data key="d8">대안반영폐기(2202444)</data>
+  <data key="d9">2024</data>
+</node>
+<node id="이용우">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">더불어민주당</data>
+</node>
+<node id="신장식">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">조국혁신당</data>
+</node>
+<node id="윤종오">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">진보당</data>
+</node>
+<node id="2200978">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(김주영의원 등 30인)</data>
+  <data key="d6">2024-06-26</data>
+  <data key="d7"></data>
+  <data key="d8">대안반영폐기(2202444)</data>
+  <data key="d9">2024</data>
+</node>
+<node id="김주영">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">더불어민주당</data>
+</node>
+<node id="2201166">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(김용민의원 등 13인)</data>
+  <data key="d6">2024-06-28</data>
+  <data key="d7"></data>
+  <data key="d8">계류(2202444에 병합 안됨, API BILLINFODETAIL로 확인)</data>
+  <data key="d9">2024</data>
+</node>
+<node id="김용민">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">더불어민주당</data>
+</node>
+<node id="2201959">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(권영세의원 등 10인)</data>
+  <data key="d6">2024-07-18</data>
+  <data key="d7"></data>
+  <data key="d8">계류(2202444에 병합 안됨, API BILLINFODETAIL로 확인)</data>
+  <data key="d9">2024</data>
+</node>
+<node id="권영세">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">국민의힘</data>
+</node>
+<node id="2202259">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(이수진의원 등 10인)</data>
+  <data key="d6">2024-07-25</data>
+  <data key="d7"></data>
+  <data key="d8">계류(2202444에 병합 안됨, API BILLINFODETAIL로 확인)</data>
+  <data key="d9">2024</data>
+</node>
+<node id="이수진">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">더불어민주당</data>
+</node>
+<node id="2202444">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(대안)(환경노동위원장)</data>
+  <data key="d6">2024-07-31</data>
+  <data key="d7">2024-08-05</data>
+  <data key="d8">원안가결 -&gt; 재의(부결)</data>
+  <data key="d9">2024</data>
+</node>
+<node id="안호영">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">더불어민주당</data>
+</node>
+<node id="2208800">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(김태선의원 등 14인)</data>
+  <data key="d6">2025-03-11</data>
+  <data key="d7"></data>
+  <data key="d8">대안반영폐기(2211924)</data>
+  <data key="d9">2025</data>
+</node>
+<node id="2209225">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(박정의원 등 14인)</data>
+  <data key="d6">2025-03-21</data>
+  <data key="d7"></data>
+  <data key="d8">대안반영폐기(2211924)</data>
+  <data key="d9">2025</data>
+</node>
+<node id="박정">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">더불어민주당</data>
+</node>
+<node id="2210488">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(박해철의원 등 13인)</data>
+  <data key="d6">2025-05-12</data>
+  <data key="d7"></data>
+  <data key="d8">대안반영폐기(2211924)</data>
+  <data key="d9">2025</data>
+</node>
+<node id="2211030">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(이용우의원ㆍ신장식의원ㆍ정혜경의원 등 43인)</data>
+  <data key="d6">2025-06-23</data>
+  <data key="d7"></data>
+  <data key="d8">대안반영폐기(2211924)</data>
+  <data key="d9">2025</data>
+</node>
+<node id="정혜경">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">진보당</data>
+</node>
+<node id="2211108">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(이수진의원 등 11인)</data>
+  <data key="d6">2025-06-26</data>
+  <data key="d7"></data>
+  <data key="d8">대안반영폐기(2211924)</data>
+  <data key="d9">2025</data>
+</node>
+<node id="2211111">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(이수진의원 등 11인)</data>
+  <data key="d6">2025-06-27</data>
+  <data key="d7"></data>
+  <data key="d8">대안반영폐기(2211924)</data>
+  <data key="d9">2025</data>
+</node>
+<node id="2211924">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(대안)(환경노동위원장)</data>
+  <data key="d6">2025-08-01</data>
+  <data key="d7">2025-08-24</data>
+  <data key="d8">원안가결</data>
+  <data key="d9">2025</data>
+</node>
+<node id="2208537">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(윤재옥의원 등 10인)</data>
+  <data key="d6">2025-02-27</data>
+  <data key="d7"></data>
+  <data key="d8">계류, 다른 방향(확인됨) - 노조 회계감사·임원선거 투명성 강화. 코퍼스 제외 대상</data>
+  <data key="d9">2025</data>
+</node>
+<node id="윤재옥">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">국민의힘</data>
+</node>
+<node id="2209016">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(윤종오의원 등 10인)</data>
+  <data key="d6">2025-03-17</data>
+  <data key="d7"></data>
+  <data key="d8">계류, 다른 방향(확인됨) - 교섭창구단일화 폐지·초기업단위 교섭. 코퍼스 제외 대상</data>
+  <data key="d9">2025</data>
+</node>
+<node id="2210963">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(송옥주의원 등 11인)</data>
+  <data key="d6">2025-06-20</data>
+  <data key="d7"></data>
+  <data key="d8">계류, 다른 방향(확인됨) - 노무관리진단보고서 제출 의무화. 코퍼스 제외 대상</data>
+  <data key="d9">2025</data>
+</node>
+<node id="송옥주">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">더불어민주당</data>
+</node>
+<node id="2211263">
+  <data key="d0">Bill</data>
+  <data key="d5">노동조합 및 노동관계조정법 일부개정법률안(박해철의원 등 13인)</data>
+  <data key="d6">2025-07-03</data>
+  <data key="d7"></data>
+  <data key="d8">계류, 다른 방향(확인됨) - 노조 결산공개 의무 완화. 코퍼스 제외 대상</data>
+  <data key="d9">2025</data>
+</node>
+<node id="김민석">
+  <data key="d0">Person</data>
+  <data key="d10">정부위원</data>
+  <data key="d11">고용노동부</data>
+</node>
+<node id="우재준">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">국민의힘</data>
+</node>
+<node id="김위상">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">국민의힘</data>
+</node>
+<node id="박홍배">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">더불어민주당</data>
+</node>
+<node id="김형동">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">국민의힘</data>
+</node>
+<node id="이정식">
+  <data key="d0">Person</data>
+  <data key="d10">정부위원</data>
+  <data key="d11">고용노동부</data>
+</node>
+<node id="조지연">
+  <data key="d0">Person</data>
+  <data key="d10">국회의원</data>
+  <data key="d11">국민의힘</data>
+</node>
+<node id="김영훈">
+  <data key="d0">Person</data>
+  <data key="d10">정부위원</data>
+  <data key="d11">고용노동부</data>
+</node>
+<edge source="2200074" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2200074" target="박해철">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="박해철" target="2211924">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">설명</data>
+  <data key="d15">노란봉투법은 노조법 3조를 말하는 거고요.</data>
+  <data key="d16">2025-07-28</data>
+  <data key="d17">N053198.md</data>
+</edge>
+<edge source="2200244" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2200244" target="김태선">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="김태선" target="2202444">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">조건부</data>
+  <data key="d15">그런데 방금은 또 반대 의견을, 부정적 의견을 피력하셔 가지고 말의 앞뒤가 좀 안 맞는 것 같다는 생각이 드는데요.</data>
+  <data key="d16">2024-07-09</data>
+  <data key="d17">053897.md</data>
+</edge>
+<edge source="2200562" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2200562" target="이용우">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="2200562" target="신장식">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">공동</data>
+</edge>
+<edge source="2200562" target="윤종오">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">공동</data>
+</edge>
+<edge source="이용우" target="2202444">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">찬성</data>
+  <data key="d15">입법조사처 회신이 이렇게 왔습니다. 21대 국회에 제출된 대법원 산하의 법원행정처 의견 동일합니다. 위헌성 얘기 한 글자도 찾아볼 수 없습니다.</data>
+  <data key="d16">2024-07-18</data>
+  <data key="d17">053928.md</data>
+</edge>
+<edge source="이용우" target="2211924">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">찬성</data>
+  <data key="d15">이런 부분들을 이제 챙길 때가 된 것 아니냐, 언제까지 20여 년 동안 이걸 방치할 거냐라고 하는 법에 불과합니다.</data>
+  <data key="d16">2025-07-28</data>
+  <data key="d17">N053198.md</data>
+</edge>
+<edge source="2200978" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2200978" target="김주영">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="김주영" target="2202444">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">찬성</data>
+  <data key="d15">우리 안건조정위원회에서 심사보고한 대로 의결하여 주시기 바랍니다.</data>
+  <data key="d16">2024-07-22</data>
+  <data key="d17">053920.md</data>
+</edge>
+<edge source="김주영" target="2211924">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">찬성</data>
+  <data key="d15">이 법은 헌법이 보장한 노동삼권을 현실 속에서 실현하고 노동조합법의 입법 취지를 구현하며 대법원과 하급심 판결, 국가인권위원회의 지속적 권고를 담아낸 시대적 전환점입니다.</data>
+  <data key="d16">2025-07-28</data>
+  <data key="d17">N053198.md</data>
+</edge>
+<edge source="2201166" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2201166" target="김용민">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="2201959" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2201959" target="권영세">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="2202259" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2202259" target="이수진">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="2202444" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2202444" target="안호영">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="2202444" target="본회의">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="안호영" target="2202444">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">설명</data>
+  <data key="d15">각 법률안의 내용은 배부해 드린 유인물과 단말기를 참고해 주시기 바랍니다.</data>
+  <data key="d16">2024-07-22</data>
+  <data key="d17">053920.md</data>
+</edge>
+<edge source="2208800" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2208800" target="김태선">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="2209225" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2209225" target="박정">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="2210488" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2210488" target="박해철">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="2211030" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2211030" target="이용우">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="2211030" target="신장식">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">공동</data>
+</edge>
+<edge source="2211030" target="정혜경">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">공동</data>
+</edge>
+<edge source="정혜경" target="2202444">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">찬성</data>
+  <data key="d15">노조법의 기본 목적은 1조에 명시되어 있습니다. 헌법상 나와 있는 노동삼권을 보장해 주기 위해서 이 법은 있는 것이고.</data>
+  <data key="d16">2024-07-18</data>
+  <data key="d17">053928.md</data>
+</edge>
+<edge source="정혜경" target="2211924">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">찬성</data>
+  <data key="d15">저는 윤석열이 거부한 노조법 개정이 국민을 살릴 것이라고 생각합니다.</data>
+  <data key="d16">2025-07-28</data>
+  <data key="d17">N053198.md</data>
+</edge>
+<edge source="2211108" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2211108" target="이수진">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="2211111" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2211111" target="이수진">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="2211924" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2211924" target="안호영">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="2211924" target="법제사법위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2211924" target="본회의">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2208537" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2208537" target="윤재옥">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="2209016" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2209016" target="윤종오">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="2210963" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2210963" target="송옥주">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="2211263" target="환경노동위원회">
+  <data key="d12">REVIEWED_BY</data>
+</edge>
+<edge source="2211263" target="박해철">
+  <data key="d12">PROPOSED_BY</data>
+  <data key="d13">대표</data>
+</edge>
+<edge source="김민석" target="2202444">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">반대</data>
+  <data key="d15">정부 측 입장으로서는 대부분 불수용입니다.</data>
+  <data key="d16">2024-07-09</data>
+  <data key="d17">053897.md</data>
+</edge>
+<edge source="우재준" target="2202444">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">조건부</data>
+  <data key="d15">소위원회에서 사실은 조정이 되지 않아서 지금 안건조정위로 온 거잖아요. 그러면 소위원회 위원장이셨던 분이 다시 또 이 부분을 담당하는 게 문제가 있을 여지가 있다고 저는 생각합니다.</data>
+  <data key="d16">2024-07-18</data>
+  <data key="d17">053928.md</data>
+</edge>
+<edge source="우재준" target="2211924">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">반대</data>
+  <data key="d15">저는 이 법이 민주노총의 청부입법일 뿐이라고 생각합니다.</data>
+  <data key="d16">2025-07-28</data>
+  <data key="d17">N053198.md</data>
+</edge>
+<edge source="김위상" target="2202444">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">조건부</data>
+  <data key="d15">노사정 합의가 대세를 이루었습니다. 대세를 이루었기 때문에 조금 찬찬히, 천천히 이렇게 가면서 합의도 우리가 도출해 보고.</data>
+  <data key="d16">2024-07-09</data>
+  <data key="d17">053897.md</data>
+</edge>
+<edge source="김위상" target="2211924">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">반대</data>
+  <data key="d15">이 법이 통과됨으로써 현장에 내려가면 노동자나 사업자들이나 질곡의 늪에서 허덕이는 그런 법밖에 되지 않는다.</data>
+  <data key="d16">2025-07-28</data>
+  <data key="d17">N053198.md</data>
+</edge>
+<edge source="박홍배" target="2202444">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">조건부</data>
+  <data key="d15">법률안 자체에 대해서 합헌성 여부나 다른 법률과의 충돌 여부에 대해 국회 내부기관에 꼭 해석을 의뢰할 필요가 있다고 생각합니다.</data>
+  <data key="d16">2024-07-09</data>
+  <data key="d17">053897.md</data>
+</edge>
+<edge source="박홍배" target="2211924">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">찬성</data>
+  <data key="d15">이 법이 왜 꼭 필요한 법안들인지에 대해서 많은 의원님들께서 토론을 해 주셨습니다.</data>
+  <data key="d16">2025-07-28</data>
+  <data key="d17">N053198.md</data>
+</edge>
+<edge source="김형동" target="2202444">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">반대</data>
+  <data key="d15">이런 식으로 졸속으로 만들어진 법률안, 그동안에 본 적도 없고 그 법률이 제대로 집행된 경우도 보지 못했습니다.</data>
+  <data key="d16">2024-07-18</data>
+  <data key="d17">053928.md</data>
+</edge>
+<edge source="김형동" target="2211924">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">반대</data>
+  <data key="d15">저는 이 법이 너무 완벽해 가지고 개정안이 안 들어왔으면 좋겠어요.</data>
+  <data key="d16">2025-07-28</data>
+  <data key="d17">N053198.md</data>
+</edge>
+<edge source="이정식" target="2202444">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">반대</data>
+  <data key="d15">오늘 환경노동위원회에서 노동조합법 일부개정법률안이 의결되었습니다. 고용노동 정책을 책임지고 노동조합법을 집행하는 장관으로서 매우 깊은 우려를 표할 수밖에 없어 유감입니다.</data>
+  <data key="d16">2024-07-22</data>
+  <data key="d17">053920.md</data>
+</edge>
+<edge source="조지연" target="2211924">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">반대</data>
+  <data key="d15">이 법이 통과된다면 우리 주력 산업은 물론이고 일자리도 위협할 수 있는 악법이라고 생각하고 있습니다.</data>
+  <data key="d16">2025-07-28</data>
+  <data key="d17">N053198.md</data>
+</edge>
+<edge source="김영훈" target="2211924">
+  <data key="d12">STATED_POSITION_ON</data>
+  <data key="d14">찬성</data>
+  <data key="d15">이번 개정은 오랜 기간 노동현장에서 제기되어 온 문제의식과 제도개선 요구 그리고 국회에서의 심도 있는 논의를 바탕으로 이루어진 것으로 사용자와 노동조합, 노동자 간 권한과 책임의 균형을 새롭게 정립하는 계기가 될 것입니다.</data>
+  <data key="d16">2025-07-28</data>
+  <data key="d17">N053198.md</data>
+</edge>
+</graph></graphml>
