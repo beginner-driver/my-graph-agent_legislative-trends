@@ -236,7 +236,13 @@ basic RAG의 약점 하나를 짚어두면: 긴 회의록(예: 053920.md, 17만�
 
 **로컬 실행 확인**: `streamlit run app.py`로 서버를 띄우고 Playwright로 직접 질문을 클릭·제출해서 답변·경로·근거·RAG 비교가 전부 정상 렌더링되는 걸 확인했다.
 
-- 화면 캡처: [`docs/screenshots/app_answer.png`](docs/screenshots/app_answer.png) (답변 + 경로), [`docs/screenshots/app_evidence.png`](docs/screenshots/app_evidence.png) (근거 펼친 화면)
+**화면 캡처 — 답변 + 경로**
+
+![답변 + 경로](docs/screenshots/app_answer.png)
+
+**화면 캡처 — 근거 펼친 화면**
+
+![근거 펼친 화면](docs/screenshots/app_evidence.png)
 
 ---
 
